@@ -105,6 +105,14 @@
             width: 60%;
             height: 50%;
             color: $color__oscuro__1;
+            a{
+                color: $color__oscuro__1;
+                font-size: 1.4rem;
+                &:hover{
+                    color: $color__verde__1;
+                }
+            }
+
         }
 
         .quienesSomos__nombre {
@@ -134,7 +142,7 @@
         align-items: center;
         padding: 10px;
         flex-wrap: wrap;
-
+        
         & p {
             margin-top: 20px;
             font-size: 1rem;
@@ -290,8 +298,6 @@
             }
 
             .container__section__foto {
-                width: 350px;
-                height: 250px;
                 margin: 20px 10px 0px;
                 box-shadow: 0px 0px 20px 10px $color__verde__2;
             }
