@@ -1,0 +1,27 @@
+footer {
+    background-color: $color__gris__1;
+    text-align: center;
+    padding: 15px 30px 40px;
+    position: fixed;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    box-sizing: content-box;
+
+    a{
+        color: $color__oscuro__1;
+        text-decoration: none;
+        &:hover{
+            color: $color__verde__3;
+        }
+    }
+
+    i {
+        padding: 0 5px 10px;
+        font-size: 1.8rem;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+}
