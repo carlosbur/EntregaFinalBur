@@ -1,9 +1,4 @@
-
 @media (min-width: 576px) {
-
-    main {
-        padding-bottom: 20px;
-    }
 
     .header {
         display: flex;
@@ -71,6 +66,31 @@
                 margin: 20px 10px 0px;
                 box-shadow: 0px 0px 20px 10px $color__verde__2;
             }
+        }
+    }
+
+    .oficinas__container {
+        display: grid;
+        grid-template-areas:
+            "oficinas__titulo oficinas__titulo"
+            "oficinas__direccion oficinas__mapa";
+
+        .oficinas__titulo {
+            grid-area: oficinas__titulo;
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
+
+        .oficinas__mapa {
+            grid-area: oficinas__mapa;
+            max-width: 650px;
+            max-height: 400px;
+        }
+
+        .oficinas__direccion {
+            margin-right: 15px;
+            font-size: 20px;
+            grid-area: oficinas__direccion;
         }
     }
 
@@ -154,7 +174,17 @@
 
     }
 
+    .oficinas__container {
+        grid-template-areas: 
+            "oficinas__titulo oficinas__titulo"
+            "oficinas__direccion oficinas__direccion";
 
+        .oficinas__mapa{
+            display: none;
+        }
+
+
+    }
 
 
     .container__servicios {
