@@ -1,0 +1,17 @@
+#formulario__contacto {
+    margin: 15px;
+    padding-bottom: 20px;
+
+    #formulario__contacto__boton {
+        background-color: $color__verde__1;
+        border: none;
+
+        &:hover {
+            background-color: $color__verde__3;
+        }
+
+        &:active:focus {
+            background-color: $color__verde__1;
+        }
+    }
+}

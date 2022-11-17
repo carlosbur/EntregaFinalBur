@@ -1,3 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+  font-family: "Roboto", Arial, sans-serif;
+}
+* main {
+  margin-bottom: 80px;
+}
+* body {
+  background-color: rgba(157, 169, 171, 0.2);
+}
+
+.titulo {
+  margin: 20px 0 0 0;
+  color: rgba(54, 170, 15, 0.8);
+  font-weight: 600;
+  text-align: center;
+  font-size: 30px;
+  top: 79px;
+  background-color: whitesmoke;
+  padding: 10px 0;
+}
+
+.subtitulo {
+  text-align: center;
+  margin-top: 20px;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -76,35 +105,35 @@ footer p {
   margin-bottom: 0;
 }
 
-/*elementos*/
-* {
-  margin: 0;
-  padding: 0;
-  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
-  font-family: "Roboto", Arial, sans-serif;
+#formulario__contacto {
+  margin: 15px;
+  padding-bottom: 20px;
 }
-* main {
-  margin-bottom: 80px;
+#formulario__contacto #formulario__contacto__boton {
+  background-color: rgba(54, 170, 15, 0.8);
+  border: none;
 }
-* body {
-  background-color: rgba(157, 169, 171, 0.2);
+#formulario__contacto #formulario__contacto__boton:hover {
+  background-color: rgb(54, 170, 15);
 }
-
-/* Clases */
-.titulo {
-  margin: 20px 0 0 0;
-  color: rgba(54, 170, 15, 0.8);
-  font-weight: 600;
-  text-align: center;
-  font-size: 30px;
-  top: 79px;
-  background-color: whitesmoke;
-  padding: 10px 0;
+#formulario__contacto #formulario__contacto__boton:active:focus {
+  background-color: rgba(54, 170, 15, 0.8);
 }
 
-.subtitulo {
+.carousel__contenedor {
+  display: flex;
+  justify-content: center;
+}
+.carousel__contenedor .slide {
+  padding: 50px 0 0;
+  max-width: 900px;
+}
+
+.galeria__parrafo {
+  font-size: 1.7rem;
   text-align: center;
-  margin-top: 20px;
+  margin: 50px 0;
+  padding: 0 0 20px;
 }
 
 .container {
@@ -137,6 +166,29 @@ footer p {
   height: 150px;
   margin: 10px 10px 0px;
   box-shadow: 0px 0px 20px 10px rgba(148, 208, 167, 0.701);
+}
+
+.oficinas__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: center;
+  margin-top: 20px;
+  background-color: rgba(54, 170, 15, 0.2);
+  padding: 20px;
+}
+.oficinas__container .oficinas__mapa {
+  width: 100%;
+  padding: 20px 0;
+}
+.oficinas__container .oficinas__direccion {
+  font-size: 18px;
+  font-weight: 400;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 .quienesSomos {
@@ -239,38 +291,6 @@ footer p {
   max-height: 200px;
   margin-bottom: 20px;
   padding-top: 20px;
-}
-
-.carousel__contenedor {
-  display: flex;
-  justify-content: center;
-}
-.carousel__contenedor .slide {
-  padding: 50px 0 0;
-  max-width: 900px;
-}
-
-.galeria__parrafo {
-  font-size: 1.7rem;
-  text-align: center;
-  margin: 50px 0;
-  padding: 0 0 20px;
-}
-
-/* IDs*/
-#formulario__contacto {
-  margin: 15px;
-  padding-bottom: 20px;
-}
-#formulario__contacto #formulario__contacto__boton {
-  background-color: rgba(54, 170, 15, 0.8);
-  border: none;
-}
-#formulario__contacto #formulario__contacto__boton:hover {
-  background-color: rgb(54, 170, 15);
-}
-#formulario__contacto #formulario__contacto__boton:active:focus {
-  background-color: rgba(54, 170, 15, 0.8);
 }
 
 @media (min-width: 576px) {
