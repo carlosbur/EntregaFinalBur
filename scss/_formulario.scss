@@ -14,4 +14,8 @@
             background-color: $color__verde__1;
         }
     }
+    .form-control:focus{
+        box-shadow: 2px 2px  $color__verde__2;
+        border: 1px solid $color__verde__2;
+    }
 }

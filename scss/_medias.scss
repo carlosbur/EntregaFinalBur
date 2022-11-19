@@ -175,11 +175,11 @@
     }
 
     .oficinas__container {
-        grid-template-areas: 
+        grid-template-areas:
             "oficinas__titulo oficinas__titulo"
             "oficinas__direccion oficinas__direccion";
 
-        .oficinas__mapa{
+        .oficinas__mapa {
             display: none;
         }
 
