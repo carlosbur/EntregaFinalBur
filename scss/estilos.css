@@ -119,11 +119,7 @@ footer p {
 #formulario__contacto #formulario__contacto__boton:active:focus {
   background-color: rgba(54, 170, 15, 0.8);
 }
-#formulario__contacto .form-control:focus {
-  box-shadow: 2px 2px rgba(148, 208, 167, 0.701);
-  border: 1px solid rgba(148, 208, 167, 0.701);
-}
-#formulario__contacto .form-control:focus input:focus {
+#formulario__contacto .form-control:focus:active {
   box-shadow: 2px 2px rgba(148, 208, 167, 0.701);
   border: 1px solid rgba(148, 208, 167, 0.701);
 }
