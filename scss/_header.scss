@@ -33,6 +33,7 @@
                 list-style-type: none;
                 font-size: 18px;
                 flex-wrap: wrap;
+                padding-left: 0;
             }
         }
 
@@ -51,11 +52,13 @@
     }
 
     .header__nav__icono {
+        margin: 12px 0 7px;
         font-size: 20px;
         color: $color__oscuro__1;
         align-self: center;
         justify-self: center;
         font-size: 30px;
+        line-height: 1;
         cursor: pointer;
     }
 }

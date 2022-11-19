@@ -59,6 +59,7 @@
   list-style-type: none;
   font-size: 18px;
   flex-wrap: wrap;
+  padding-left: 0;
 }
 .header .header__nav a {
   border-radius: 5px;
@@ -72,11 +73,13 @@
   background-color: darkgrey;
 }
 .header .header__nav__icono {
+  margin: 12px 0 7px;
   font-size: 20px;
   color: #323232;
   align-self: center;
   justify-self: center;
   font-size: 30px;
+  line-height: 1;
   cursor: pointer;
 }
 
